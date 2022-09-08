@@ -1,0 +1,28 @@
+introduction of html
+
+TAGS 
+<h1>	
+	this is heading
+<h1>
+
+<HTML>
+<head>
+	 meta, style, js
+</head>
+
+style .css 
+js .js
+meta tag
+
+
+HTML ELEMENTS
+HTML ATTRIBUTES
+
+pre tag
+
+
+
+create a new folder 
+then open gitbash 
+in gitbash put {code .} to run vs code
+
