@@ -1,0 +1,26 @@
+GITHUB
+VERSION CONTROL= to manage the version 
+SNAPSHOT = save the momentary stage
+REPOSITORIES = folder lai repo vanxa
+CLONING = COPYING REMOTE FILES
+COMMIT = CREAATING SNAPSHOT
+PULLING AND PUSIHNG = FOR WHEN MORE THAN 2 PEOPLE ARE WORKING 
+BRANCHES = STEM - MAIN BRANCH
+HEAD = # CODE
+# = IDENTITFIES THE COMMITS - 1 WAY
+MERIGING 
+
+
+GIT CODES
+git init - yesle .git vanne empty repo banau xa yesma sab file haru hunxa
+
+git add . -folder ma vako sab file haru lai typ repo ma add handinxa
+
+git commit -m"" -comment haneko ani hamle add garem ko folder haru sab commit hunxa
+
+git branch -M main -main branch banauna
+
+git remote add origin
+git push - u origin master
+
+FOR FURTHER GO TO MODULE
