@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    form{
+        border: 1px solid black;
+        max-width: 350px;
+        margin-left: 40%;
+        padding: 10px;
+    }
+
+    label{
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    input{
+            padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 20px;
+    }
+        input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+        input[type=submit]:hover {
+      background-color: #45a049;
+    }
+</style>    
+
+<form>
+    <label for="fname">Name: </label><br />
+    <input type="text" id="fname" placeholder="Name" name="fname" /><br />
+    <label for="lname">Class: </label><br />
+    <input type="number" id="lname" placeholder="Class" name="lname" /><br />
+    <label for="lname">Roll: </label><br />
+    <input type="number" id="lname"  placeholder="Roll-no"  name="lname" /><br />
+    <label for="lname">Phone: </label><br /> 
+    <input type="number" id="lname" placeholder="Phone-no" name="lname" /><br />
+    <label for="lname">E-mail: </label><br />
+    <input type="email" id="lname" placeholder="E-mail" name="lname" /><br />
+
+
+    <label for="lname">Gender: </label><br />
+    <input type="radio" id="male" name="gender" vslue="msle" />
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female" />
+    <label for="female">female</label> <br />
+    
+
+    <label for="lname">Subject: </label><br />
+    <input type="radio" id="Subject" name="Maths" vslue="Maths" />
+    <label for="male">Maths</label>
+    <input type="radio" name="English" id="Subject" value="English" />
+    <label for="English">English</label> <br />
+
+    <label for="lname">Points: </label><br />
+    <input type="number" id="lname" placeholder="Points" name="lname" /><br />
+    <input type="submit" value="submit" /> <br />
+
+</form>
+
+</html>

@@ -2,57 +2,127 @@
 <HTML>
 <head>
     <title>
-        My first page
+        Table
     </title>
+
+    <style>
+         table {
+    margin-right: 25%;
+    margin-left: 25%;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 5px solid black;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  caption{
+    font-size: 40px;
+  }
+    </style>
 </head>
 <body>
-    <h1 style="color: red;"> Thsi is h1 tag </h1>
-    <p> This is a paragraph
-        <a href=" "> click here </a>
-        <img src="C:\Users\acer\Desktop\New folder\images\19.png" alt="this is a image" width="100">
-
-        <a href="https://www.google.com/" target="_blank" title="Google" >Google</a>
-    </p> <!- hello comment please ->
-    
-</body>
-<ol>
-    <li>Sudat</li>
-    <li>Alish</li>
-    <li>Nihang</li>
-</ol>
 <table>
-    <tr>
-        <th>Firstname</th>
-        <th>Surname</th>
-        <th>Age</th>
-    </tr>
-    <tr>
-        <td>Gunace</td>
-        <td>chandra lawati</td>
-        <td>22</td>
-    </tr>
-    <tr>
-        <td>Sonu</td>
-        <td>Budha</td>
-        <td>16</td>
-    </tr>
-    <style>
-        table,
-        td,
-        th {
-            border: 1px solid forestgreen;
-            padding: 5px; 
-        }
-    </style>
+    <caption>
+        This is a sample table
+    </caption>
+    <thead>
+        <tr>
+            <th rowspan="2">Name</th>
+            <th rowspan="2">Class</th>
+            <th rowspan="2">Roll</th>
+            <th rowspan="2">Phone</th>
+            <th rowspan="2">Email</th>
+            <th rowspan="2">gender</th>
+            <th colspan="4">Subject</th>
+            <th rowspan="2">Points</th>
+        </tr>
+        <tr>
+            <th> Maths</th>
+            <th> English</th>
+            <th>Science</th>
+            <th>Social</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
 
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="10" >Total points</td>
+            <td>50</td>
+          </tr>
+    </tfoot>
 </table>
-<audio controls autoplay>
-    <source src="C:\Users\acer\Desktop\New folder\music\GHOSTEMANE - Mercury [TubeRipper.com].m4a" type="audio/mp4" />
-    your browser does not support the audio element.
-</audio>
-
-<video width="500" height="500" controls autoplay muted>
-    <source src="C:\Users\acer\Desktop\New folder\vid\Rocky Since 1951 KGF Yash Prashanth Neel [TubeRipper.com].mp4" type="video/mp4" />
-</video>
-
+</body>
 </HTML>
